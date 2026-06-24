@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@plugin 'daisyui';
+
+@theme {
+  --color-primary: #2563eb;
+  --color-primary-content: #ffffff;
+  --color-secondary: #64748b;
+  --color-accent: #0ea5e9;
+  --color-neutral: #1e293b;
+  --color-base-100: #f8fafc;
+  --color-base-200: #f1f5f9;
+  --color-base-300: #e2e8f0;
+}
+
+body {
+  @apply bg-base-200 min-h-screen;
+}
+
+.ag-theme-quartz {
+  --ag-font-family: inherit;
+  --ag-border-radius: 8px;
+}

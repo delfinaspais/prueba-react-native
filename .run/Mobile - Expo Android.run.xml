@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Mobile - Expo Android" type="js.build_tools.npm" factoryName="npm">
+    <package-json value="$PROJECT_DIR$/apps/mobile/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="android" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

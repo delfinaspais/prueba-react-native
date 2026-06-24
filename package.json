@@ -1,0 +1,12 @@
+{
+  "name": "doctor-agenda-demo",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:web": "bun run --filter web dev",
+    "dev:mobile": "bun run --filter mobile start",
+    "build:web": "bun run --filter web build",
+    "check:web": "bun run --filter web check",
+    "lint": "bun run --filter '*' lint"
+  }
+}
