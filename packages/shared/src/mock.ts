@@ -1,4 +1,4 @@
-import type { Paciente, Turno } from './types.js';
+import type { Paciente, Turno } from './types';
 
 export const MOCK_TURNOS: Turno[] = [
   {
